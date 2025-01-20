@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const githubApiKey = import.meta.env.VITE_GITHUB_API_KEY;
+const githubApiKey = import.meta.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;
 
 export const fetchUserData = async (query) => {
   try {
