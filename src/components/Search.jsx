@@ -44,7 +44,7 @@ const Search = () => {
 
   return (
     <div className="flex justify-center size-52 items-center h-lvh flex-col w-full">
-      <div className="">
+      <div className="pb-10">
         <h1 className="text-2xl font-bold mb-4">GitHub User Search</h1>
         <form onSubmit={handleSubmit}>
           <input
@@ -73,7 +73,7 @@ const Search = () => {
             {users.map((user) => (
               <div
                 key={user.id}
-                className="user-details flex flex-col shadow-2xl items-center mb-4 hover:scale-105"
+                className="user-details flex flex-col shadow-2xl items-center mb-4 px-3 py-3 hover:scale-105"
               >
                 <img
                   src={user.avatar_url}
